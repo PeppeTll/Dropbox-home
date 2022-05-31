@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.large {
+    height: 100%;
+    width: 80%;
+}
+
+.small {
+    height: 100%;
+    width: 60%;
+}
+
+/** HEADER ==========================================================================*/
+header {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+}
+
+.container_header {
+    width: 100%;
+    height: 100%;
+}
+
+.row_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.col_logo {
+    width: 10%;
+    height: 100%;
+    padding: 20px
+}
+
+.col_logo>img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.a_wrapper_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.a_wrapper_left>a {
+    text-align: center;
+    padding-top: 20px;
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.a_wrapper_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.a_wrapper_right>a {
+    text-align: center;
+    padding-top: 20px;
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn_wrapper {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn_start {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+}
+/** HEADER=========================================================================*/
+
+/** MAIN===========================================================================*/
+/** SECTION 01=====================================================================*/
+.section_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(15, 176, 234, 0.314);
+}
+
+.container_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.row_top_section_01 {
+    width: 100%;
+    height: 30%;
+    padding: 20px;
+}
+
+.row_top_section_01>h1 {
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+}
+
+.row_bottom_section_01 {
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.col_01 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col_01>a {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.col_02 {
+    width: 60%;
+    height: 100%;
+}
+
+.col_02>img {
+    width: 100%;
+}
+/** SECTION_02=====================================================================*/
+
+
+
+
+
+/** DEBUG ==========================================================================*/
+.debug header {
+    border: 2px solid black;
+    /* background-color: rgba(15, 176, 234, 0.435); */
+}
+
+.debug .row_header {
+    border: 1px dashed black;
+}
+
+.debug .col_logo {
+    border: 1px dashed black;
+}
+
+.debug nav {
+    border: 1px dashed black;
+}
+
+.debug .row_header>a {
+    border: 1px dashed ;
+}
+
+.debug .btn_wrapper {
+    border: 1px dashed black;
+}
+
+.debug .a_wrapper_left {
+    border: 1px dashed black;
+}
+
+.debug .a_wrapper_right {
+    border: 1px dashed
+}
+
+.debug .btn_start {
+    border: 3px dashed black;
+}
+/** HEADER=========================================================================*/
+
+/** MAIN===========================================================================*/
+/** SECTION 01=====================================================================*/
+.debug .section_01 {
+    border: 1px solid black;
+}
+
+.debug .container_01 {
+    border: 2px dashed black;
+}
+
+.debug .row_top_section_01 {
+    border: 1px dashed black;;
+}
+
+.debug .row_bottom_section_01 {
+    border: 1px dashed black
+}
+
+.debug .col_01 {
+    border: 1px dashed black
+}
+
+.debug .col_02 {
+    border: 1px dashed black
+}

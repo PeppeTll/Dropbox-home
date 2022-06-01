@@ -11,12 +11,17 @@ a {
 
 .large {
     height: 100%;
-    width: 80%;
+    width: 85%;
 }
 
 .small {
     height: 100%;
-    width: 60%;
+    width: 70%;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
 }
 
 /** HEADER ==========================================================================*/
@@ -40,13 +45,12 @@ header {
 }
 
 .col_logo {
-    width: 10%;
+    width: 165px;
     height: 100%;
     padding: 20px
 }
 
 .col_logo>img {
-    width: 100%;
     object-position: center;
     object-fit: cover;
 }
@@ -54,7 +58,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    flex-grow: 10;
     height: 100%;
 }
 
@@ -63,14 +67,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 30%;
-    height: 100%;
 }
 
 .a_wrapper_left>a {
     text-align: center;
-    padding-top: 20px;
     width: 30%;
-    height: 100%;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -80,23 +81,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 30%;
-    height: 100%;
 }
 
 .a_wrapper_right>a {
     text-align: center;
-    padding-top: 20px;
     width: 30%;
-    height: 100%;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn_wrapper {
-    width: 10%;
-    height: 100%;
+    width: 165px;
     text-align: center;
-    padding-top: 20px;
 }
 
 .btn_start {
@@ -131,7 +127,6 @@ nav {
 
 .row_top_section_01 {
     width: 100%;
-    height: 30%;
     padding: 20px;
 }
 
@@ -166,7 +161,7 @@ nav {
 }
 
 .col_02 {
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 
@@ -174,10 +169,106 @@ nav {
     width: 100%;
 }
 /** SECTION_02=====================================================================*/
+.section_02 {
+    min-height: 1500px;
+    padding-top: 100px;
+}
 
+.container_02 {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
+.row_top_section_02>h1 {
+    font-size: 60px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.checkbox {
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.row_center_section_02 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    min-height: 800px;
+    gap: 40px;
+}
+
+.col_section_02 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid;
+}
+
+.plan_section_02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    border: 1px solid;
+}
+
+.description_box_01 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 20px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description_box_02>ul {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    padding: 20px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description_box_02 li {
+    gap: 10px;
+}
+
+.description_box_03 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 40px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid;
+}
+
+.btn_prova_gratis {
+    align-self: center;
+}
+
+.btn_prova_gratis>a {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    
+}
+
+.acquista>a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.row_bottom_section_02 {
+    min-height: 300px;
+}
 
 /** DEBUG ==========================================================================*/
 .debug header {
@@ -242,4 +333,21 @@ nav {
 
 .debug .col_02 {
     border: 1px dashed black
+}
+/** SECTION 02=====================================================================*/
+.debug .section_02 {
+    border: 2px dashed black
+}
+
+.debug .container_02 {
+    border: 2px dashed black;
+    min-height: 1500px;
+}
+
+/* .debug .row_center_section_02>[class^="col"] {
+    border: 1px dashed violet;
+} */
+
+.debug .row_bottom_section_02 {
+    border: 1px dashed green;
 }

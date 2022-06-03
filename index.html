@@ -6,9 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+        integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-<body class="debug">
+<body class="deug">
+    <!--Header-->
     <header>
         <div class="container_header">
             <div class="row_header">
@@ -16,12 +20,12 @@
                     <img src="img/logo-small.png" alt="">
                 </div>
                 <nav>
-                    <div class="a_wrapper_left">
+                    <div class="nav_container_left">
                         <a href="#">Perchè Dropbox?</a>
                         <a href="#">Funzioni</a>
                         <a href="#">Piani e prezzi</a>
                     </div>
-                    <div class="a_wrapper_right">
+                    <div class="nav_container_right">
                         <a href="#">Supporto</a>
                         <a href="#">Contatta l'ufficio vendite</a>
                         <a href="#">Accedi</a>
@@ -33,8 +37,9 @@
             </div>
         </div>
     </header>
-
+    <!--Main-->
     <main>
+        <!-- Section 01 -->
         <section class="section_01">
             <div class="container_01 large">
                 <div class="row_top_section_01">
@@ -42,13 +47,13 @@
                 </div>
                 <div class="row_bottom_section_01">
                     <div class="col_01">
-                        <p>Lorem ipsum dolor sit amet consectetur.
-                            Consequuntur debitis iste reiciendis in facilis.
-                            Iure autem beatae saepe asperiores sit.
-                            Vel ad recusandae vero assumenda laborum.
-                            Nostrum hic qui natus labore quidem?</p>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto.
+                            Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e
+                            integrato
+                            per ottimizzare il flusso di lavoro esistente.</p>
                         <a href="#">Inizia la tua prova gratuita</a>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Annulla in qualsiasi momento.</p>
                     </div>
                     <div class="col_02">
                         <img src="img/jumbo.png" alt="">
@@ -56,19 +61,22 @@
                 </div>
             </div>
         </section>
-
+        <!-- Section 02 -->
         <section class="section_02">
             <div class="container_02 small">
+                <!-- Row Top -->
                 <div class="row_top_section_02">
-                    <h1>Trova il piano Dropbox che fa per te.</h1>
-                    <div class="checkbox">
+                    <h1>Trova il piano Dropbox Business che fa per te.</h1>
+                    <div class="radio">
                         <input type="radio" name="fattura" id="">
                         <label for="">Fatturazione mensile</label>
                         <input type="radio" name="fattura" id="">
                         <label for="">Fatturazione annuale</label>
                     </div>
                 </div>
+                <!-- Row Center -->
                 <div class="row_center_section_02">
+                    <!-- Column Plan Left-->
                     <div class="col_section_02">
                         <div class="plan_section_02">
                             <i class="fa-solid fa-person"></i>
@@ -84,16 +92,16 @@
                                 <ul>
                                     <li>
                                         <i class="fa-solid fa-person"></i>
-                                        <p>1 Utente</p>
+                                        1 Utente
                                     </li>
                                     <li>
                                         <i class="fa-regular fa-floppy-disk"></i>
-                                        <p>3 TB di spazio di archiviazione</p>
+                                        3 TB di spazio di archiviazione
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-pencil"></i>
-                                        <p>Funzioni di produttività premium e condivisione
-                                            file semplice e sicura</p>
+                                        Funzioni di produttività premium e condivisione
+                                        file semplice e sicura
                                     </li>
                                 </ul>
                             </div>
@@ -104,8 +112,33 @@
                                 <p class="acquista">oppure <a href="#">acquista ora</a></p>
                             </div>
                         </div>
-                        <div class="most_plane_01"></div>
+                        <div class="most_plan">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Invia file fino a 100 GB con Dropbox
+                                    Tranfert
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Pulizia remota dell'account
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    filigrana documento
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Assistenzaz prioritaria via email e chat
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <!-- Column Plan Center -->
                     <div class="col_section_02">
                         <div class="plan_section_02">
                             <i class="fa-regular fa-building"></i>
@@ -141,8 +174,37 @@
                                 <p class="acquista">oppure <a href="#">acquista ora</a></p>
                             </div>
                         </div>
-                        <div class="most_plane_02"></div>
+                        <div class="most_plan">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Invia file fino a 100 GB con Dropbox
+                                    Tranfert
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Pulizia remota dell'account
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    filigrana documento
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Assistenzaz prioritaria via email e chat
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Assistenzaz prioritaria via email e chat
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <!-- Column Plan Bottom -->
                     <div class="col_section_02">
                         <div class="plan_section_02">
                             <i class="fa-regular fa-building"></i>
@@ -178,252 +240,438 @@
                                 <p class="acquista">oppure <a href="#">acquista ora</a></p>
                             </div>
                         </div>
-                        <div class="most_plane_03">
+                        <div class="most_plan">
                             <ul>
                                 <li>
                                     <i class="fa-solid fa-check"></i>
-                                    <p>Invia file fino a 100 GB con Dropbox
-                                        Tranfert
-                                    </p>
+                                    Invia file fino a 100 GB con Dropbox
+                                    Tranfert
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-check"></i>
-                                    <p>Cartelle offline su dispositivi mobili</p>
+                                    Cartelle offline su dispositivi mobili
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-check"></i>
-                                    <p></p>
+                                    Pulizia remota dell'account
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-check"></i>
-                                    <p></p>
+                                    filigrana documento
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-check"></i>
-                                    <p></p>
+                                    Assistenzaz prioritaria via email e chat
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Assistenzaz prioritaria via email e chat
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Assistenzaz prioritaria via email e chat
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!-- Row Bottom -->
                 <div class="row_bottom_section_02">
                     <div class="col_06">
-                        <div class="plane_04"></div>
-                        <div>
-                            <div class="description">
-                                <h1></h1>
-                                <h2></h2>
-                                <p></p>
+                        <div class="plan_bottom">
+                            <i class="fa-regular fa-building"></i>
+                            <h3>Team</h3>
+                        </div>
+                        <div class="col_07">
+                            <div class="left_box">
+                                <h1>Enterprise</h1>
+                                <h2>Contatta l'ufficio vendite per i prezzi</h2>
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                    gestione su qualsiasi scala.</p>
                             </div>
-                            <div class="a_wrapper">
-                                <a href="#"></a>
+                            <div class="btn_ufficio_vendite">
+                                <a href="#">Contatta l'ufficio vendite</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container_ small">
-                <div class="img_wrapper">
-                    <img src="" alt="">
+        <!-- Section 03 -->
+        <section class="section_03">
+            <div class="container_03 small">
+                <div class="img_wrapper_section_03">
+                    <img src="img/partner.png" alt="" class="img_section_03">
                 </div>
-                <div class="description_text">
-                    <h1></h1>
-                    <p></p>
-                    <a href="#"></a>
+                <div class="description_text_section_03">
+                    <h1>Entra in contatto con un partner Dropbox</h1>
+                    <p>Trova un partner Dropbox ed HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per
+                        raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
+                        supporto continui.</p>
+                    <div>
+                        <a href="#" class="btn_trova_partner">Trova un partner</a>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container_ small">
-                <div class="row">
-                    h1
+        <!-- Section 04 -->
+        <section class="section_04">
+            <div class="container_04 small">
+                <div class="row_top_section_04">
+                    <h1>Esegui più operazioni con dropbox Business</h1>
                 </div>
-                <div class="row">
+                <div class="row_bottom_section_04">
                     <div class="card_wrap">
+                        <!-- card 1 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-switching-tools.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
+                        <!-- card 2 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-coordinate-it.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
+                        <!-- card 3 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-multi-device.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
+                        <!-- card 4 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-integrations-it.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
+                        <!-- card 5 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-send-files-it.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
+                        <!-- card 6 -->
                         <div class="card">
-                            <div class="img_wrapper">
-                                <img src="" alt="">
+                            <div class="img_card_wrapper">
+                                <img src="img/business-feature-security.png" alt="" class="img_card">
                             </div>
-                            <h1></h1>
-                            <p></p>
+                            <h1>Passa di meno da uno strumento all'altro</h1>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Presentazioni di Google, File Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container_ small">
-                <div class="row">
-                    <h1></h1>
-                    <a href="#"></a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row">
+        <!-- section 05 -->
+        <section class="section_05">
+            <div class="container_05 small">
+                <div class="row_section_05">
+                    <h1>
+                        Più di 500.000 team
+                        <br>
+                        utilizzano Dropbox Business
+                    </h1>
                     <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
+                        <a href="#" class="more_client">Scopri di più sui nostri clienti</a>
                     </div>
-                    <div>
-                        <h1></h1>
-                        <p></p>
-                        <p></p>
+                </div>
+            </div>
+        </section>
+        <!-- section 06 -->
+        <section class="section_06">
+            <div class="container_06 large">
+                <div class="row_section_06">
+                    <!-- Box Left -->
+                    <div class="wrap_box_left_section_06">
+                        <div class="img_wrap_section_06 designit">
+                            <img src="img/designit.svg" alt="" class="img_section_06">
+                        </div>
+                        <div class="img_wrap_section_06 asu">
+                            <img src="img/arizona_state_university.svg" alt="" class="img_section_06">
+                        </div>
+                        <div class="img_wrap_section_06 florida">
+                            <img src="img/university_of_florida.svg" alt="" class="img_section_06">
+                        </div>
+                        <div class="img_wrap_section_06 topps">
+                            <img src="img/topps.svg" alt="" class="img_section_06">
+                        </div>
+                    </div class="box_center_section_06">
+                    <!-- Box Center -->
+                    <div class="box_center_section_06">
+                        <div class="wrapper_img_box_center">
+                            <img src="img/designit.svg" alt="" class="img_box_center">
+                        </div>
+                        <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora
+                            molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e
+                            Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile
+                            quanto Dropbox Paper"</p>
+                        <p>Morten Thomsen, Global IT Lead</p>
                     </div>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <!-- box Right -->
+                    <div class="wrap_box_right_section_06 bicycle">
+                        <div class="img_wrap_section_06">
+                            <img src="img/world_bicycle_relief.svg" alt="" class="img_section_06">
                         </div>
-                        <div>
-                            <img src="" alt="">
+                        <div class="img_wrap_section_06 hearts">
+                            <img src="img/hearst_corp.svg" alt="" class="img_section_06">
                         </div>
-                        <div>
-                            <img src="" alt="">
+                        <div class="img_wrap_section_06 lonely">
+                            <img src="img/lonely_planet.svg" alt="" class="img_section_06">
                         </div>
-                        <div>
-                            <img src="" alt="">
+                        <div class="img_wrap_section_06 clar_channel">
+                            <img src="img/clear_channel.svg" alt="" class="img_section_06">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container_ small">
-                <div class="row">
-                    <div class="col_00">
-                        <h1></h1>
-                        <a href="#"></a>
+        <!-- Section 07 -->
+        <section class="section_07">
+            <div class="container_07 small">
+                <div class="row_section_07">
+                    <div class="wrapper_h1_section_07">
+                        <h1>Porta Dropbox Business
+                            nella tua azienda.</h1>
+                    </div>
+                    <div class="wrapper_a_section_07">
+                        <a href="#">Inizia la tua prova gratuita</a>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container small">
-                <div class="row">
-                    <div class="col_000">
-                        <h1></h1>
+        <!-- section 08 -->
+        <section class="section_08">
+            <div class="container_08 small">
+                <div class="row_section_08">
+                    <div class="wrapper_h1_section_08">
+                        <h1>Domande frequenti</h1>
                     </div>
                 </div>
-                <div class="row">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="wrapper_question_a_section_08">
+                    <div class="question_section_08">
+                        <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+                        <i class="fa-solid fa-angles-down"></i>
+                    </div>
+                    <div class="question_section_08">
+                        <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+                        <i class="fa-solid fa-angles-down"></i>
+                    </div>
+                    <div class="question_section_08">
+                        <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+                        <i class="fa-solid fa-angles-down"></i>
+                    </div>
+                    <div class="question_section_08">
+                        <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+                        <i class="fa-solid fa-angles-down"></i>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
+    <!-- Footer -->
     <footer>
-        <div class="container_08">
-            <div class="row">
-                <div class="col_0">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+        <div class="container_09 large">
+            <div class="row_footer">
+                <div class="wrapper_footer_list">
+                    <ul> 
+                        <h2>Dropbox</h2>
+                        <li>
+                            <a href="#">
+                                Applicazione desktop
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                App mobile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Integrazioni
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Funzioni
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Soluzioni
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Fai di più che archiviare
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Sicurezza
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Accesso anticipato
+                            </a>
+                        </li>
                     </ul>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <h2>Prodotti</h2>
+                        <li>
+                            <a href="#">
+                                Plus
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Professional
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Business
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Enterprise
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                HelloSign
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                DocSend
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Piani
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Aggiornamenti del prodotto
+                            </a>
+                        </li>
+                    </ul>
+                    <ul> 
+                        <h2>Supporto</h2>
+                        <li>
+                            <a href="#">
+                                Centro assistenza
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contattaci
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Privacy e Termini
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                asd
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Norme sui cookie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Preferenze cookie e CCPA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Mappa del sito
+                            </a>
+                        </li>
+                    </ul>
+                    <ul> 
+                        <h2>Community</h2>
+                        <li>
+                            <a href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Sviluppatori
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Forum della community
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Referral
+                            </a>
+                        </li>
                     </ul>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <h2>Azienda</h2>
+                        <li>
+                            <a href="#">
+                                Informazioni su Dropbox
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Lavora con noi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Relazioni con gli investitori
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                ESG
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Partner
+                            </a>
+                        </li>
                     </ul>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="col_0">
-                    <div class="img_wrapper">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col_0">
-                    <select name="" id=""></select>
                 </div>
             </div>
         </div>
